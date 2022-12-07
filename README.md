@@ -15,8 +15,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Clone](#clone)
   - [Run](#run)
@@ -32,29 +30,11 @@
 
 > This is book list app that has function to add and remove books.
 
-## 🛠 Built With <a name="built-with">HTML & Javascript</a>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-
+## 🛠 Built With <a name="built-with"></a>
+> HTML & Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Here is a link to deployed project.
-
-- [Live Demo Link]
-
-> Here is a link to loom video.
-
-- [Loom Video Link]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -86,6 +66,11 @@ To run project, run the following command:
 👤 Hiwot Bayissa
 
  GitHub: [@github/hiwina](https://github.com/hiwina)
+> 
+
+👤 solomon opeyemi 
+
+ GitHub: [@github/solorics](https://github.com/solorics)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
