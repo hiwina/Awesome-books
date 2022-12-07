@@ -5,7 +5,7 @@
   <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone-project-one</b></h3>
+  <h3><b>Awesome Book Project</b></h3>
 
 </div>
 
@@ -17,9 +17,7 @@
   - [🛠 Built With](#built-with)
 - [💻 Getting Started](#getting-started)
   - [Clone](#clone)
-  - [Run](#run)
 - [👥 Authors](#authors)
-- [🙏 Acknowledgements](#acknowledgements)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
@@ -49,14 +47,6 @@ Clone this repository to your desired folder:
   git clone https://github.com/hiwina/Capstone-Project-1
 
 
-### Run 
-
-To run project, run the following command:
-
-  Open in desired editor.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -74,13 +64,6 @@ To run project, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
