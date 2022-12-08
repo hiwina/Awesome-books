@@ -4,7 +4,7 @@
 const form = document.querySelector('#book-form');
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');
-const displayArea = document.querySelector('.book-list');
+const displayArea = document.querySelector('#book-list');
 
 class Books {
   constructor(title, author) {
