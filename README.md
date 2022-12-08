@@ -1,53 +1,91 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-# Awesome-books
+<a name="readme-top"></a>
 
-## Built With
-- HTML
-- CSS
-- JS
+<div align="center">
 
-### Prerequisites
-The basic requirements for building the executable are:
-* A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge etc)
+  <img src="/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-### Run tests
-Open index.html in Chrome
+  <h3><b>Awesome Book Project</b></h3>
 
-## Authors
+</div>
 
-## Author 1
+<!-- TABLE OF CONTENTS -->
 
-👤 **hiwina**
+# 📗 Table of Contents
 
-- GitHub: [@hiwina](https://github.com/hiwina)
-- Twitter: []()
-- LinkedIn: [LinkedIn]()
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+- [💻 Getting Started](#getting-started)
+  - [Clone](#clone)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖  Awesome-books <a name="about-project"></a>
+
+> This is book list app that has function to add and remove books.
+
+## 🛠 Built With <a name="built-with"></a>
+> HTML & Javascript
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Authors
+<!-- GETTING STARTED -->
 
-## Author 2
+## 💻 Getting Started <a name="getting-started"></a>
 
-👤 **Solorics**
+> To get a local copy up and running, follow these steps.
 
-- GitHub: [@solorics](https://github.com/solorics)
-- Twitter: [@Solorics2](https://twitter.com/Solorics2)
+### Clone
 
-## 🤝 Contributing
+Clone this repository to your desired folder:
+
+  git clone https://github.com/hiwina/Capstone-Project-1
+
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> 
+
+👤 Hiwot Bayissa
+
+ GitHub: [@github/hiwina](https://github.com/hiwina)
+> 
+
+👤 solomon opeyemi 
+
+ GitHub: [@github/solorics](https://github.com/solorics)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+<!-- SUPPORT -->
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please give a star...
 
-- Microverse
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./mit.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
