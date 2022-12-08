@@ -30,7 +30,7 @@ h2 {
   text-align: center;
 }
 
-/* #author {
+#author {
   margin-top: 1em;
 }
 
@@ -49,7 +49,7 @@ h2 {
   gap: 5px;
   background: #c5c5c5;
   margin-top: 20px;
-} */
+} 
 
 .deleteBook {
   display: flex;
