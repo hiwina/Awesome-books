@@ -110,9 +110,6 @@ const onload = () => {
 window.addEventListener('load', onload);
 window.addEventListener('load', displayDate);
 bookList.addEventListener('click', onload);
-// bookList.addEventListener('click', (onload) => {
-//   header.style.display = 'block';
-// });
 
 addBook.addEventListener('click', () => {
   bookList.classList.remove('active');
