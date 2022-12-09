@@ -5,6 +5,13 @@ const form = document.querySelector('#book-form');
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');
 const displayArea = document.querySelector('#book-list');
+const bookList = document.querySelector('#list');
+const addBook = document.querySelector('#add-new');
+const contact = document.querySelector('#contact');
+const addSection = document.querySelector('#adds');
+const contactSection = document.querySelector('#contacts');
+// const listSection = document.querySelector('#lists');
+const header = document.querySelector('.text-center');
 
 class Books {
   constructor(title, author) {
@@ -100,3 +107,42 @@ const deleteItem = (id) => {
 // }
 
 window.addEventListener('load', bigBook.displayBooks());
+function displayDate() {
+  document.getElementById('date').innerHTML = Date();
+}
+const onload = () => {
+  contactSection.style.display = 'none';
+  addSection.style.display = 'none';
+  displayArea.style.display = 'block';
+  bookList.classList.add('active');
+  contact.classList.remove('active');
+  addBook.classList.remove('active');
+  header.style.display = 'block';
+};
+
+window.addEventListener('load', onload);
+window.addEventListener('load', displayDate);
+bookList.addEventListener('click', onload);
+bookList.addEventListener('click', (onload) => {
+  header.style.display = 'block';
+});
+
+addBook.addEventListener('click', () => {
+  bookList.classList.remove('active');
+  contact.classList.remove('active');
+  contactSection.style.display = 'none';
+  addSection.style.display = 'flex';
+  addBook.classList.add('active');
+  displayArea.style.display = 'none';
+  header.style.display = 'none';
+});
+
+contact.addEventListener('click', () => {
+  addBook.classList.remove('active');
+  bookList.classList.remove('active');
+  contactSection.style.display = 'flex';
+  addSection.style.display = 'none';
+  displayArea.style.display = 'none';
+  contact.classList.add('active');
+  header.style.display = 'none';
+});
