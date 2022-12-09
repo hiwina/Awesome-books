@@ -1,6 +1,3 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable no-unused-vars */
-// select the items
 const form = document.querySelector('#book-form');
 const title = document.querySelector('#title');
 const author = document.querySelector('#author');
@@ -10,7 +7,6 @@ const addBook = document.querySelector('#add-new');
 const contact = document.querySelector('#contact');
 const addSection = document.querySelector('#adds');
 const contactSection = document.querySelector('#contacts');
-// const listSection = document.querySelector('#lists');
 const header = document.querySelector('.text-center');
 
 class Books {
@@ -23,7 +19,6 @@ class Books {
     const bookTitle = title.value;
     const bookAuthor = author.value;
     const book = new Books(bookTitle, bookAuthor);
-    // Check if local storage is empty
     if (localStorage.getItem('books') === null) {
       const bookShelf = [];
       bookShelf.push(book);
@@ -34,7 +29,6 @@ class Books {
       bookArray.push(book);
       localStorage.setItem('books', JSON.stringify(bookArray));
     }
-    // Clear input
     title.value = '';
     author.value = '';
     this.displayBooks();
@@ -53,7 +47,6 @@ class Books {
       const deleteBtn = document.createElement('div');
       const container = document.createElement('div');
       const words = document.createElement('div');
-      // set attributes
       displayTitle.innerText = `"${element.title}" by`;
       displayAuth.innerText = element.author;
       deleteBtn.innerHTML = `<button class="btn borders removeButton" onclick='deleteItem(${index})'>Remove</button>`;
@@ -61,7 +54,6 @@ class Books {
       container.classList.add('flexing', 'centers');
       words.classList.add('flexing');
       displayAuth.classList.add('word');
-      // apend children
       words.appendChild(displayTitle);
       words.appendChild(displayAuth);
       container.appendChild(words);
@@ -83,10 +75,8 @@ class Books {
   }
 }
 
-// what happens when a person presses submit
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  // Check if title and author field is empty or not
   if (title.value === '' || author.value === '') {
     title.setAttribute('placeholder', 'title');
     author.setAttribute('placeholder', 'author');
@@ -101,10 +91,6 @@ const bigBook = new Books();
 const deleteItem = (id) => {
   bigBook.removeBook(id);
 };
-
-// if ('cl' === 'clz') {
-//   deleteItem(1);
-// }
 
 window.addEventListener('load', bigBook.displayBooks());
 function displayDate() {
