@@ -39,18 +39,17 @@ a {
 }
 
 #book-form {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   margin-top: 3em;
   align-items: flex-end;
-  margin-left: 8em;
+  margin-left: 50%;
 }
 
 #book-form,
 h2 {
   text-align: center;
-
-  /* margin-right: 3em; */
+  margin-right: 2em;
 }
 
 #book-list {
@@ -131,6 +130,7 @@ input {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  font-size: 25px;
 }
 
 footer {
