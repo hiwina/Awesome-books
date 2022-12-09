@@ -88,6 +88,7 @@ form.addEventListener('submit', (event) => {
 });
 
 const bigBook = new Books();
+// eslint-disable-next-line no-unused-vars
 const deleteItem = (id) => {
   bigBook.removeBook(id);
 };
@@ -109,9 +110,9 @@ const onload = () => {
 window.addEventListener('load', onload);
 window.addEventListener('load', displayDate);
 bookList.addEventListener('click', onload);
-bookList.addEventListener('click', (onload) => {
-  header.style.display = 'block';
-});
+// bookList.addEventListener('click', (onload) => {
+//   header.style.display = 'block';
+// });
 
 addBook.addEventListener('click', () => {
   bookList.classList.remove('active');
